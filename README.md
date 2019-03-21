@@ -1,4 +1,4 @@
-# Saleforce Auth Provider Plugin for Login.gov
+# Salesforce Auth Provider Plugin for Login.gov
 Salesforce Custom Auth Provider Plugin for Login.Gov
 
 ## Resources
