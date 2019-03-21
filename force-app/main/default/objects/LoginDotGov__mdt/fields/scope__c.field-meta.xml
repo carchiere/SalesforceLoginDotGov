@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>scope__c</fullName>
+    <defaultValue>&quot;openid email&quot;</defaultValue>
+    <description>A space-separated string of the scopes being requested. The authorization page will display the list of attributes being requested from the user. Applications should aim to request the fewest user attributes and smallest scope needed. Possible values are: openid, address, email, phone, profile:birthdate, profile:name, profile, and social_security_number</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>A space-separated string of the scopes being requested. The authorization page will display the list of attributes being requested from the user. Applications should aim to request the fewest user attributes and smallest scope needed. Possible values are:</inlineHelpText>
+    <label>scope</label>
+    <length>100</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

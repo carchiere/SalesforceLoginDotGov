@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>prompt__c</fullName>
+    <description>This can either be select_account (default behavior) or login (force a re-authorization even if a current IdP session is active).</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This can either be select_account (default behavior) or login (force a re-authorization even if a current IdP session is active).</inlineHelpText>
+    <label>prompt</label>
+    <length>20</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

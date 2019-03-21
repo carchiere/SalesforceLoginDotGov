@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>state__c</fullName>
+    <defaultValue>&quot;$STATE_REPLACE&quot;</defaultValue>
+    <description>A unique value at least 32 characters in length used for maintaining state between the request and the callback. This value will be returned to the client on a successful authorization.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>A unique value at least 32 characters in length used for maintaining state between the request and the callback. This value will be returned to the client on a successful authorization.</inlineHelpText>
+    <label>state</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

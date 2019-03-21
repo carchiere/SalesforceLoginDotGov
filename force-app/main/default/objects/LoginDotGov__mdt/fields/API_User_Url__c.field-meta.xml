@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_User_Url__c</fullName>
+    <description>The user info endpoint is used to retrieve user attributes. Clients use the access_token from the token response as a bearer token in the HTTP Authorization header.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The user info endpoint is used to retrieve user attributes. Clients use the access_token from the token response as a bearer token in the HTTP Authorization header.</inlineHelpText>
+    <label>API_User_Url</label>
+    <required>true</required>
+    <type>Url</type>
+</CustomField>

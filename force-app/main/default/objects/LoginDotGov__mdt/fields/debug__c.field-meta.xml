@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>debug__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check to write the custom output to debug logs from Auth Apex Class</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Check to write the custom output to debug logs from Auth Apex Class</inlineHelpText>
+    <label>debug</label>
+    <type>Checkbox</type>
+</CustomField>

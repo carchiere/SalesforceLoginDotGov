@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>acr_values__c</fullName>
+    <description>The Authentication Context Class Reference values used to specify the LOA (level of assurance) of an account, either LOA1 or LOA3. This and the scope determine which user attributes will be available in the user info response. The possible parameter values are:
+http://idmanagement.gov/ns/assurance/loa/1
+http://idmanagement.gov/ns/assurance/loa/3</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Authentication Context Class Reference specify the level of assurance (LOA)  Options: 
+http://idmanagement.gov/ns/assurance/loa/1
+http://idmanagement.gov/ns/assurance/loa/3</inlineHelpText>
+    <label>acr_values</label>
+    <length>100</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

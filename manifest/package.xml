@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LoginAuthProv</fullName>
+    <description>Components used in the Login.gov AuthProvider plugin</description>
+    <types>
+        <members>LoginDotGov</members>
+        <members>LoginDotGovTestClass</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>LoginDotGov__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>LoginDotGov__mdt-LoginDotGov Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>39.0</version>
+</Package>

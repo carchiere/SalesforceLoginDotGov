@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authorization_Endpoint__c</fullName>
+    <description>Authorization URL for Login.  e.g https://idp.int.identitysandbox.gov/openid_connect/authorize</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Authorization URL for Login.  e.g https://idp.int.identitysandbox.gov/openid_connect/authorize</inlineHelpText>
+    <label>Authorization Endpoint</label>
+    <required>true</required>
+    <type>Url</type>
+</CustomField>

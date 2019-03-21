@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Access_Token_Url__c</fullName>
+    <description>Token endpoint to exchange the authorization code for an id_token and access_token</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Token endpoint to exchange the authorization code for an id_token and access_token</inlineHelpText>
+    <label>Access_Token_Url</label>
+    <required>true</required>
+    <type>Url</type>
+</CustomField>

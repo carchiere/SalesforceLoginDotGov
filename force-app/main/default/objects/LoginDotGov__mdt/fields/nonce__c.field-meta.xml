@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nonce__c</fullName>
+    <defaultValue>&quot;$NONCE_REPLACE&quot;</defaultValue>
+    <description>A unique value at least 32 characters in length used to verify the integrity of the id_token and mitigate replay attacks. This value should include per-session state and be unguessable by attackers. This value will be present in the id_token of the token endpoint response, where clients will verify that the nonce claim value is equal to the value of the nonce parameter sent in the authentication request. Read more about nonce implementation in the spec.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>A unique value at least 32 characters in length used to verify the integrity of the id_token and mitigate replay attacks.</inlineHelpText>
+    <label>nonce</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
