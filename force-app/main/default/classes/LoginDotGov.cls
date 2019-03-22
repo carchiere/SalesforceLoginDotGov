@@ -6,7 +6,7 @@ global class LoginDotGov extends Auth.AuthProviderPluginClass {
 * -----------------------------------------------------------------------------------------
 * Mod ID      |   Date       | Mod Author       | Brief Mod Description 
 * -----------------------------------------------------------------------------------------
-* 0001        |  3/1/2019    | Cary Archierre   | Initial code creation.
+* 0001        |  3/1/2019    | Cary Archiere   | Initial code creation.
 *                         
 * -----------------------------------------------------------------------------------------
 *******************************************************************************************/
@@ -19,7 +19,7 @@ global class LoginDotGov extends Auth.AuthProviderPluginClass {
     private String nonce;
     private String prompt;  
     private String responseType;
-    private String scope;  
+    private String scope; 
     private String state;
     
     // Application redirection to the Login.gov website for authentication and authorization.
