@@ -69,7 +69,7 @@ global class LoginDotGov extends Auth.AuthProviderPluginClass {
         
         // Build up the authentication request.  This will return a URL to redirect the user 
         
-        String url = authUrl 
+        String url = authUrl + '?'
             + '&acr_values=' + acrValue
             + '&client_id='+ clientId 
             + '&nonce=' + nonce
