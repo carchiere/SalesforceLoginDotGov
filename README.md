@@ -16,6 +16,6 @@ Auth Provider Plugin designed to allow Login.gov as an IDP for Salesforce. Once 
 6. For native MyDomain Salesforce login, check the new Auth Provider as an option under the My Domain Authentication Configruation.  For other uses, such as a community, use the URL's provided in the Auth Provdier configuation.  
 
 ## Issues
-- be sure to use lowercase values for any parameters and the redirect and callback URI.  Login.gov will respond with everything in lowercase which causes Chrome to deny due to CSP if the case is mixed
+- be sure to use lowercase values for any parameters and the redirect and callback URI.  Also make sure the URL Suffix value of the Auth Provider under setup is lowercase.  Login.gov will respond with everything in lowercase which causes Chrome to deny due to CSP if the case is mixed
 
 
