@@ -63,7 +63,7 @@ public class LoginDotGovTestClass {
            LoginDotGov LoginDotGovCls = new LoginDotGov();
            LoginDotGovCls.redirectUrl = authProviderConfiguration.get('redirect_uri__c');
            
-        	String url = authProviderConfiguration.get('Authorization_Endpoint__c') 
+        	String url = authProviderConfiguration.get('Authorization_Endpoint__c') +'?'
             + '&acr_values=' + authProviderConfiguration.get('acr_values__c')
             + '&client_id='+ authProviderConfiguration.get('client_id__c') 
             + '&nonce=' + 'testNonce'
