@@ -192,8 +192,7 @@ global class LoginDotGov extends Auth.AuthProviderPluginClass {
         
         Map<String,Object>userInfo = jsonMap(responseBody);
         
-        // TO DO:  This section should be modified accourding to the implementation.  
-        // Depending on the scope and login flow, these values will differ.
+        // put together the object to pass to the registration handler
         String id = userInfo.get('sub').toString(); 
         String fname = 'first name'; 
         String lname = 'last name'; 
